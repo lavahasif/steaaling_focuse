@@ -15,6 +15,9 @@ namespace WindowsFormsApplication3
         public Form1()
         {
             InitializeComponent();
+            var a = new Form2();
+            a.MdiParent = this;
+                a.Show();
         }
     }
 }
